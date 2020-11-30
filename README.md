@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Web app Name
 
-## Available Scripts
+RobotFriends - React and Redux App
 
-In the project directory, you can run:
+## General website information
 
-### `npm start`
+This web app is a basic react and redux app meant to showcase
+the ultilasation of the programming language and state
+management tool.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a SPA (single page application) which requests data from
+an json API.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The use of React Components, Lifecycle methods, API calls and
+redux are the cofe of this app.
 
-### `npm test`
+## Programming Languages and tools used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Languages
 
-### `npm run build`
+- HTML & HTML5
+- CSS & CSS3
+- Javascript
+- React
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Tachyons (shortcut CSS styling)
+- Prettier (mount code)
+- npx create-react-app (template react app)
+- Redux (state management tool)
+- Redux Thunk (allows you to return functions from actions)
+- Redux Logger (automatic console logs progress through app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Additional notes
 
-### `npm run eject`
+1. I understand that one reducer should be used within one app.
+   This app has 2 reducers to help showchase my ability with reducers.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+2. There are some unit testing files which i have decided not to
+   delete, I have not yet perfected the art of unit testing but in the
+   process of perfecting it and decided to show some files to showcase
+   how i approach to learning new methods bytesting them on existing apps
+   amongst other things.
